@@ -1,9 +1,7 @@
-KMS，是 Key Management System 的缩写，也就是密钥管理系统。这里所说的 KMS，毋庸置疑就是用来激活 VOL 版本的 Windows 和 Office 的 KMS 啦。经常能在网上看到有人提供的 KMS 服务器地址，那么你有没有想过自己也来搞一个这样的服务呢？而这样的服务在 Github 上已经有开源代码实现了。
-本文就是在这个开源代码的基础上，开发了适用于三大 Linux 发行版的一键安装 KMS 服务的脚本。
+KMS 激活 VOL 版本的 Windows 和 Office 。 一键安装 KMS 服务的脚本。
 
 本脚本适用环境
 系统支持：CentOS 6+，Debian 7+，Ubuntu 12+
-虚拟技术：任意
 内存要求：≥128M
 日期　　：2018 年 10 月 25 日
 
@@ -36,6 +34,7 @@ tcp        0      0 :::1688                     :::*                        LIST
 使用 root 用户登录，运行以下命令：
 
 ./kms.sh uninstall
+
 如何使用 KMS 服务
 KMS 服务，用于在线激活 VOL 版本的 Windows 和 Office。
 激活的前提是你的系统是批量授权版本，即 VL 版，一般企业版都是 VL 版。而 VL 版本的镜像一般内置 GVLK key，用于 KMS 激活。
