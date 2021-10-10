@@ -15,7 +15,8 @@ KMS，是 Key Management System 的缩写，也就是密钥管理系统。这里
 使用方法
 使用root用户登录，运行以下命令：
 
-wget --no-check-certificate https://github.com/teddysun/across/raw/master/kms.sh && chmod +x kms.sh && ./kms.sh
+wget --no-check-certificate https://raw.githubusercontent.com/becapital/kms-server/main/kms.sh && chmod +x kms.sh && ./kms.sh
+
 安装完成后，输入以下命令查看端口号 1688 的监听情况
 
 netstat -nxtlp | grep 1688
